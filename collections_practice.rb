@@ -56,8 +56,8 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |string, i|
-    if i = 2
-      string = "here"
+    if i == 2
+      string 
     else string = "#{string}s"
     end
   end
