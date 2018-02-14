@@ -56,6 +56,10 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |string, i|
+    if i == 1
+      string
+    else
       string = "#{string}s"
+    else
   end
 end
