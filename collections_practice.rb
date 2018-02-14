@@ -60,6 +60,6 @@ def add_s(array)
       string
     else
       string = "#{string}s"
-    else
+    end
   end
 end
